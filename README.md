@@ -1,16 +1,23 @@
-## Hi there 👋
+# 👋 Olá! Eu sou o Fernando
 
-<!--
-**perfilcorporativo/perfilcorporativo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 Formado em Análise e Desenvolvimento de Sistemas  
+💼 Focado em Suporte Técnico e Implantação de Sistemas  
+🚚 Interesse especial em sistemas de logística (expedição, cross docking, roteirização)  
+📊 Excel Avançado | SQL | Importação de Dados (CSV) | Power Query  
+🔧 Noções de APIs, integrações e documentação técnica  
 
-Here are some ideas to get you started:
+## 🚀 Projetos
+🔹 Dashboard Logístico (Excel + CSV)  
+🔹 Importação de dados CSV para MySQL/PostgreSQL  
+🔹 Consumo de API simples (CEP/Logística)  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🔧 Tecnologias e Ferramentas
+- Excel Avançado  
+- SQL (MySQL, PostgreSQL)  
+- Git / GitHub  
+- CSV e Power Query  
+- Python (básico)  
+
+## 📫 Contato
+Email: perfilcorporativo@outlook.com 
+
