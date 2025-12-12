@@ -39,7 +39,7 @@ Sou formado em Análise e Desenvolvimento de Sistemas (2023–2025) e desenvolvo
 ---
 
 ## O que busco
-Atuar como Suporte Técnico, Analista de TI, Implantação de Sistemas ou Consultoria Técnica, contribuindo com:
+Atuar como Suporte Técnico, Analista de TI, Implantação de Sistemas ou Auxiliar de TI, contribuindo com:
 - Monitoramento de sistemas
 - Resolução de problemas
 - Redes e infraestrutura
