@@ -1,15 +1,13 @@
-# 👋 Olá! Seja bem-vindo ao meu GitHub
+Olá! Bem-vindo ao meu GitHub
 
-Sou formado em Análise e Desenvolvimento de Sistemas (2023–2025) e desenvolvo projetos práticos voltados para suporte técnico, automação, análise de dados e infraestrutura.
-Tenho experiência criando ferramentas reais para resolver problemas do dia a dia, desde automações de rede e inventário até dashboards e integrações de dados.
+Sou formado em Análise e Desenvolvimento de Sistemas (2023–2025) e desenvolvo projetos focados em Suporte Técnico, Infraestrutura, Automação, Redes e Análise de Dados.
+Meu objetivo é criar soluções práticas e funcionais, que resolvem problemas reais — desde scripts de diagnóstico até dashboards logísticos e integrações de dados.
 
 🚀 Habilidades Técnicas
 
-Com base nos projetos que desenvolvo, minhas principais competências incluem:
+Suporte & Infraestrutura
 
-🖥️ Suporte e Infraestrutura
-
-Diagnóstico de rede
+Diagnóstico e testes de rede
 
 Monitoramento de sistemas
 
@@ -19,60 +17,56 @@ Otimização e manutenção do Windows
 
 Automação de rotinas de suporte
 
-📊 Dados e Excel
+📊 Dados & Excel
 
-Tabelas dinâmicas
-
-Dashboards profissionais
+Tabelas dinâmicas e dashboards profissionais
 
 Power Query avançado
 
-Tratamento e integração de dados via CSV
+Limpeza, tratamento e modelagem de dados
+
+Integração via CSV
 
 🗄️ Banco de Dados
 
 MySQL e PostgreSQL
 
-Importação de dados (CSV → SQL)
+Importação de dados CSV → SQL
 
-Queries básicas e intermediárias
-
-Criação e manipulação de tabelas
+Consultas SQL e manipulação de tabelas
 
 🐍 Programação (Python)
 
-Scripts utilitários
+Scripts utilitários para suporte
 
-Automação simples
-
-Análise e coleta de informações
+Automação de tarefas
 
 Consumo de APIs
 
-⚙️ Automação e Scripts
+Inventário, monitoramento e análise simples
 
-PowerShell para suporte e diagnóstico
+⚙️ Automação & Scripts
 
-Scripts de inventário
+PowerShell para diagnóstico e suporte
 
-Ferramentas de monitoramento e coleta de dados
+Scripts de inventário e coleta de informações
 
-🎯 O que busco
+Ferramentas práticas para rotina de TI
 
-Atuar em Suporte Técnico, Analista de TI, Implantação de Sistemas ou Consultoria Técnica, aplicando meus conhecimentos em:
+🎯 Objetivo Profissional
 
-Monitoramento
+Busco atuar como Técnico de TI, Analista de Suporte, Implantação ou Consultor Técnico, aplicando minhas habilidades em:
 
-Análise e solução de problemas
+Monitoramento e análise de ambiente
 
-Redes
+Solução de problemas
 
-Integração de dados e sistemas
+Infraestrutura e redes
 
-Lógica de dados
+Integração de dados
 
 Automação
 
 Atendimento ao usuário
 
-🟢 *Obrigado por visitar meu GitHub! Fique à vontade para explorar os projetos e dar sugestões.*  
+🟢 Obrigado pela visita!
