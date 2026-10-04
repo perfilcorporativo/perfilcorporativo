@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini ERP | Estoque e Vendas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">PROJETO PESSOAL</p>
+      <h1>Mini ERP de Estoque e Vendas</h1>
+      <p class="subtitle">Gestão simples de clientes, produtos, vendas e estoque.</p>
+    </div>
+    <button id="reset-demo" class="secondary">Restaurar dados de exemplo</button>
+  </header>
+
+  <main>
+    <section class="summary" aria-label="Resumo">
+      <article class="card metric"><span>Clientes</span><strong id="metric-clients">0</strong></article>
+      <article class="card metric"><span>Produtos</span><strong id="metric-products">0</strong></article>
+      <article class="card metric"><span>Vendas</span><strong id="metric-sales">0</strong></article>
+      <article class="card metric"><span>Faturamento</span><strong id="metric-revenue">R$ 0,00</strong></article>
+    </section>
+
+    <nav class="tabs" aria-label="Módulos do sistema">
+      <button class="tab active" data-target="clients">Clientes</button>
+      <button class="tab" data-target="products">Produtos</button>
+      <button class="tab" data-target="sales">Vendas</button>
+      <button class="tab" data-target="stock">Estoque</button>
+    </nav>
+
+    <section id="clients" class="panel active">
+      <div class="panel-header"><div><p class="eyebrow">MÓDULO 1</p><h2>Clientes</h2></div></div>
+      <form id="client-form" class="form-grid">
+        <label>Nome<input id="client-name" required placeholder="Ex.: Mercado Central"></label>
+        <label>E-mail<input id="client-email" type="email" required placeholder="contato@empresa.com"></label>
+        <label>Telefone<input id="client-phone" required placeholder="(11) 99999-9999"></label>
+        <button type="submit">Cadastrar cliente</button>
+      </form>
+      <div class="table-wrap">
+        <table><thead><tr><th>Cliente</th><th>E-mail</th><th>Telefone</th></tr></thead><tbody id="clients-table"></tbody></table>
+      </div>
+    </section>
+
+    <section id="products" class="panel">
+      <div class="panel-header"><div><p class="eyebrow">MÓDULO 2</p><h2>Produtos</h2></div></div>
+      <form id="product-form" class="form-grid">
+        <label>Produto<input id="product-name" required placeholder="Ex.: Café 500 g"></label>
+        <label>Preço<input id="product-price" type="number" min="0.01" step="0.01" required placeholder="0,00"></label>
+        <label>Estoque inicial<input id="product-stock" type="number" min="0" step="1" required placeholder="0"></label>
+        <button type="submit">Cadastrar produto</button>
+      </form>
+      <div class="table-wrap">
+        <table><thead><tr><th>Produto</th><th>Preço</th><th>Estoque</th></tr></thead><tbody id="products-table"></tbody></table>
+      </div>
+    </section>
+
+    <section id="sales" class="panel">
+      <div class="panel-header"><div><p class="eyebrow">MÓDULO 3</p><h2>Vendas</h2></div></div>
+      <form id="sale-form" class="form-grid">
+        <label>Cliente<select id="sale-client" required></select></label>
+        <label>Produto<select id="sale-product" required></select></label>
+        <label>Quantidade<input id="sale-qty" type="number" min="1" step="1" value="1" required></label>
+        <button type="submit">Registrar venda</button>
+      </form>
+      <p id="sale-message" class="message" role="status"></p>
+      <div class="table-wrap">
+        <table><thead><tr><th>Data</th><th>Cliente</th><th>Produto</th><th>Qtd.</th><th>Total</th></tr></thead><tbody id="sales-table"></tbody></table>
+      </div>
+    </section>
+
+    <section id="stock" class="panel">
+      <div class="panel-header">
+        <div><p class="eyebrow">MÓDULO 4</p><h2>Estoque</h2></div>
+        <p>O estoque é atualizado automaticamente a cada venda.</p>
+      </div>
+      <div class="table-wrap">
+        <table><thead><tr><th>Produto</th><th>Quantidade</th><th>Situação</th></tr></thead><tbody id="stock-table"></tbody></table>
+      </div>
+    </section>
+  </main>
+
+  <footer>Projeto demonstrativo criado para praticar organização de processos e regras simples de negócio.</footer>
+  <script src="app.js"></script>
+</body>
+</html>
