@@ -1,6 +1,6 @@
 # Fernando Junior
 
-Estudante/formado em Análise e Desenvolvimento de Sistemas com foco em desenvolvimento, suporte e integração de sistemas.
+Formação em **Análise e Desenvolvimento de Sistemas**, com foco em desenvolvimento, suporte e integração de sistemas.
 
 ## Projetos em destaque
 
@@ -12,7 +12,7 @@ Sistema de chamados com **TypeScript, Node.js, API REST, SQLite, SQL, HTML, CSS 
 - interface web integrada à API
 - testes automatizados
 
-Repositório: https://github.com/perfilcorporativo/sistema-tickets
+[Ver repositório](https://github.com/perfilcorporativo/sistema-tickets)
 
 ### CEP Explorer
 Aplicação web para consulta de endereços usando **TypeScript, REST, ViaCEP e SQLite**.
@@ -23,7 +23,7 @@ Aplicação web para consulta de endereços usando **TypeScript, REST, ViaCEP e 
 - interface web responsiva
 - testes automatizados
 
-Repositório: https://github.com/perfilcorporativo/projeto_consulta_api
+[Ver repositório](https://github.com/perfilcorporativo/projeto_consulta_api)
 
 ## Tecnologias praticadas
 
