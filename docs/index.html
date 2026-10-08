@@ -1,145 +1,123 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f4f1ea">
-  <meta name="description" content="Fernando Batistela. Projetos de desenvolvimento de sistemas: FaceScoreAI, CEP Explorer, HelpDesk Lite, xadrez com IA e Mini ERP.">
-  <meta property="og:title" content="Fernando Batistela — Projetos de software">
-  <meta property="og:description" content="Portfólio com projetos reais em Android, desenvolvimento web e sistemas.">
-  <meta property="og:type" content="website">
-  <title>Fernando Batistela — Projetos de software</title>
-  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
-  <script defer src="main.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7f6f2">
+<meta name="description" content="Portfólio de Fernando Batistela. Projetos em Android, TypeScript, Python e desenvolvimento de sistemas.">
+<meta property="og:title" content="Fernando Batistela — Projetos">
+<meta property="og:description" content="Conheça o FaceScoreAI, HelpDesk Lite, CEP Explorer, Mini ERP e o TCC de xadrez com IA.">
+<meta property="og:type" content="website">
+<title>Fernando Batistela — Portfólio</title>
+<link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<script defer src="main.js"></script>
 </head>
 <body>
-<a class="skip" href="#conteudo">Pular para o conteúdo</a>
-<header class="masthead" id="topo">
-  <a class="signature" href="#topo" aria-label="Fernando Batistela, início">FB<span class="signature-dot">/</span><span class="signature-name">Fernando Batistela</span></a>
-  <nav class="main-nav" aria-label="Navegação principal">
-    <a href="#projetos">Projetos</a>
-    <a href="#facescore">FaceScoreAI</a>
-    <a href="#sobre">Sobre</a>
-    <a href="#contato">Contato</a>
-  </nav>
-  <a class="masthead-external" href="https://github.com/perfilcorporativo" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
-  <button class="mobile-menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir navegação"><span></span><span></span></button>
-</header>
-<nav id="mobile-menu" class="mobile-menu" aria-label="Navegação móvel" hidden>
-  <a href="#projetos">Projetos</a><a href="#facescore">FaceScoreAI</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a><a href="https://github.com/perfilcorporativo" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-</nav>
-<main id="conteudo">
-  <section class="opening" aria-labelledby="opening-title">
-    <div class="opening-rail"><span>PORTFÓLIO — 2026</span><span>ADS / UNIFADRA — FUNDEC</span></div>
-    <div class="opening-layout">
-      <div class="opening-main">
-        <p class="opening-overline">Desenvolvimento de sistemas · Brasil</p>
-        <h1 id="opening-title">Fernando<br><span>Batistela</span><span class="opening-period">.</span></h1>
-        <p class="opening-description">Desenvolvo aplicativos e sistemas para praticar arquitetura, APIs, bancos de dados e interfaces. Estes são os projetos que posso mostrar.</p>
-        <div class="opening-actions"><a class="underlined-link" href="#projetos">Ver os projetos <span aria-hidden="true">↘</span></a><span>01 — 05 em destaque</span></div>
+<a class="skip" href="#projetos">Ir para os projetos</a>
+<div class="app">
+  <header class="bar">
+    <a class="brand" href="https://github.com/perfilcorporativo" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Fernando Batistela"><span>FB<span class="slash">/</span></span><span>Fernando Batistela</span></a>
+    <span class="bar-label">Portfólio de projetos <span class="bar-year">— 2026</span></span>
+    <a class="top-link" href="https://www.linkedin.com/in/fernando-batistela-4bb4b639b/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+  </header>
+
+  <main class="workspace" id="projetos">
+    <aside class="sidebar">
+      <div class="sidebar-about">
+        <p class="eyebrow">DESENVOLVIMENTO DE SISTEMAS</p>
+        <h1>Fernando <br>Batistela<span>.</span></h1>
+        <p class="intro">Formado em ADS pela UNIFADRA/FUNDEC. Projetos próprios e acadêmicos em sistemas, web e Android.</p>
       </div>
-      <figure class="opening-figure">
-        <div class="opening-image-wrap"><img src="assets/helpdesk-real.webp" width="1280" height="800" alt="Interface real do HelpDesk Lite, com formulário de chamados e painel de atendimento." fetchpriority="high"></div>
-        <figcaption><span>Vista de um projeto</span><span>HelpDesk Lite · aplicação real</span></figcaption>
-      </figure>
-    </div>
-    <div class="opening-bottom"><span>DESENVOLVIMENTO / INTERFACES / SISTEMAS</span><span>Role para continuar ↓</span></div>
-  </section>
 
-  <section class="orientation" aria-labelledby="orientation-title">
-    <p class="orientation-index">A coleção</p>
-    <h2 id="orientation-title">Um aplicativo Android, três sistemas web e um TCC em equipe.</h2>
-    <div class="orientation-note"><span>Cada trabalho tem um estágio próprio: alguns funcionam como sistemas demonstrativos, outros seguem em desenvolvimento.</span><a href="#projetos">Começar a explorar ↗</a></div>
-  </section>
-
-  <section class="project-journey" id="projetos" aria-label="Galeria horizontal de projetos">
-    <div class="journey-fixed">
-      <div class="journey-header">
-        <div><span class="journey-kicker">Trabalhos selecionados</span><h2>Projetos <span id="journey-current">01</span><span class="journey-total">/05</span></h2></div>
-        <div class="journey-controls"><span class="journey-instruction" id="journey-instruction">Role para percorrer →</span><button type="button" id="journey-prev" aria-label="Projeto anterior">←</button><button type="button" id="journey-next" aria-label="Próximo projeto">→</button></div>
+      <div class="picker" role="group" aria-label="Selecionar projeto">
+        <div class="picker-heading"><span>Projetos</span><span>05</span></div>
+        <button type="button" class="project-tab" data-project="face" aria-pressed="false"><span class="tab-num">01</span><span class="tab-name">FaceScoreAI</span><span class="tab-arrow">↗</span></button>
+        <button type="button" class="project-tab is-active" data-project="help" aria-pressed="true"><span class="tab-num">02</span><span class="tab-name">HelpDesk Lite</span><span class="tab-arrow">↗</span></button>
+        <button type="button" class="project-tab" data-project="cep" aria-pressed="false"><span class="tab-num">03</span><span class="tab-name">CEP Explorer</span><span class="tab-arrow">↗</span></button>
+        <button type="button" class="project-tab" data-project="erp" aria-pressed="false"><span class="tab-num">04</span><span class="tab-name">Mini ERP</span><span class="tab-arrow">↗</span></button>
+        <button type="button" class="project-tab" data-project="chess" aria-pressed="false"><span class="tab-num">05</span><span class="tab-name">IA para Xadrez</span><span class="tab-arrow">↗</span></button>
       </div>
-      <div class="journey-window" id="journey-window" tabindex="0" aria-label="Projetos em sequência horizontal, use as setas para mudar de projeto">
-        <div class="journey-track" id="journey-track">
+      <div class="sidebar-bottom">
+        <div class="availability"><span class="small-dot"></span> Em início de carreira em TI</div>
+        <div class="social"><a href="https://github.com/perfilcorporativo" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/fernando-batistela-4bb4b639b/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div>
+      </div>
+    </aside>
 
-          <article class="project-panel face-panel" aria-labelledby="face-panel-title">
-            <div class="panel-copy face-copy">
-              <div class="panel-meta"><span>Aplicativo Android</span><span>2026 / Em desenvolvimento</span></div>
-              <div class="panel-content">
-                <h3 id="face-panel-title">FaceScoreAI</h3>
-                <p>Experiência de leitura geométrica facial no dispositivo: captura, medições, histórico e comparações.</p>
-                <a href="#facescore" class="project-link">Entender o projeto <span aria-hidden="true">↗</span></a>
+    <section class="viewer" aria-label="Visualização do projeto selecionado">
+      <div class="viewer-toolbar">
+        <span class="viewer-eyebrow">Projeto selecionado</span>
+        <div class="viewer-position"><span id="current-number" aria-live="polite">02</span><span class="total-number"> / 05</span></div>
+        <div class="viewer-controls"><button id="previous" type="button" aria-label="Projeto anterior">←</button><button id="next" type="button" aria-label="Próximo projeto">→</button></div>
+      </div>
+
+      <div class="panels" id="panels">
+        <article class="panel panel-face" data-panel="face" hidden aria-labelledby="title-face">
+          <div class="project-visual stage-face">
+            <div class="flow-graphic" role="img" aria-label="Quatro etapas técnicas do FaceScoreAI: captura, landmarks, métricas e histórico. Não há fotografias nem rostos reais.">
+              <div class="flow-heading"><span>FaceScoreAI</span><span>Android / pipeline local</span></div>
+              <div class="flow-grid">
+                <div><small>01</small><strong>Captura</strong><span>Câmera e galeria</span></div>
+                <div><small>02</small><strong>Landmarks</strong><span>MediaPipe</span></div>
+                <div><small>03</small><strong>Métricas</strong><span>Cálculos geométricos</span></div>
+                <div><small>04</small><strong>Histórico</strong><span>Room</span></div>
               </div>
-              <div class="panel-footer"><span>Kotlin · Compose · MediaPipe · Room</span><span>01</span></div>
+              <p>Diagrama técnico ilustrativo. Nenhuma imagem facial é exibida.</p>
             </div>
-            <div class="face-visual">
-              <div class="flow-note">Estrutura do processamento local <span>sem imagens pessoais</span></div>
-              <div class="face-flow" role="img" aria-label="Fluxo técnico resumido: imagem capturada, detecção de landmarks, métricas geométricas e histórico local.">
-                <div><small>A</small><strong>Captura</strong><p>Galeria ou câmera</p></div>
-                <div><small>B</small><strong>Landmarks</strong><p>MediaPipe</p></div>
-                <div><small>C</small><strong>Métricas</strong><p>Geometria facial</p></div>
-                <div><small>D</small><strong>Histórico</strong><p>Room</p></div>
-              </div>
-              <div class="flow-foot"><span>Fluxo simplificado baseado no aplicativo</span><span>ANDROID / LOCAL</span></div>
+          </div>
+          <div class="panel-info">
+            <div class="panel-copy"><span class="category">Android · Em desenvolvimento</span><h2 id="title-face">FaceScoreAI</h2><p>Leitura geométrica local, histórico e comparação de resultados. Projeto em evolução, sem validação científica ou clínica.</p></div>
+            <div class="panel-side"><span>Kotlin · Jetpack Compose · MediaPipe · Room</span><span class="not-published">Código ainda não público</span></div>
+          </div>
+        </article>
+
+        <article class="panel panel-help" data-panel="help" aria-labelledby="title-help">
+          <div class="project-visual stage-help">
+            <a class="full-image" href="assets/helpdesk-real.webp" target="_blank" rel="noopener noreferrer" aria-label="Abrir a imagem completa e real do HelpDesk Lite em outra aba">
+              <img src="assets/helpdesk-real.webp" width="1280" height="800" alt="Tela completa real do HelpDesk Lite, mostrando formulário de solicitação e fila de atendimento, sem cortes." fetchpriority="high">
+            </a>
+            <a class="open-image-label" href="assets/helpdesk-real.webp" target="_blank" rel="noopener noreferrer">Ver captura inteira ↗</a>
+          </div>
+          <div class="panel-info">
+            <div class="panel-copy"><span class="category">Sistema web · API REST</span><h2 id="title-help">HelpDesk Lite</h2><p>Registro e gestão de chamados, filtros por status e prioridade e persistência com SQLite.</p></div>
+            <div class="panel-side"><span>TypeScript · Node.js · SQLite</span><a href="https://github.com/perfilcorporativo/sistema-tickets" target="_blank" rel="noopener noreferrer">Ver código ↗</a></div>
+          </div>
+        </article>
+
+        <article class="panel panel-cep" data-panel="cep" hidden aria-labelledby="title-cep">
+          <div class="project-visual stage-cep">
+            <a class="full-image" href="assets/cep-real.webp" target="_blank" rel="noopener noreferrer" aria-label="Abrir a imagem completa do CEP Explorer em outra aba">
+              <img src="assets/cep-real.webp" width="1280" height="800" decoding="async" alt="Tela completa real do CEP Explorer com campo de CEP e histórico de consultas.">
+            </a>
+            <a class="open-image-label" href="assets/cep-real.webp" target="_blank" rel="noopener noreferrer">Ver captura inteira ↗</a>
+          </div>
+          <div class="panel-info"><div class="panel-copy"><span class="category">Web · Integração com API</span><h2 id="title-cep">CEP Explorer</h2><p>Consulta à API ViaCEP, validação dos dados e cache e histórico em banco local.</p></div><div class="panel-side"><span>TypeScript · Node.js · SQLite</span><a href="https://github.com/perfilcorporativo/projeto_consulta_api" target="_blank" rel="noopener noreferrer">Ver código ↗</a></div></div>
+        </article>
+
+        <article class="panel panel-erp" data-panel="erp" hidden aria-labelledby="title-erp">
+          <div class="project-visual stage-erp">
+            <a class="full-image" href="assets/erp-real.webp" target="_blank" rel="noopener noreferrer" aria-label="Abrir a imagem completa do Mini ERP em outra aba">
+              <img src="assets/erp-real.webp" width="1280" height="800" decoding="async" alt="Tela real do Mini ERP, mostrando os módulos de cadastro de clientes, produtos, vendas e estoque.">
+            </a>
+            <a class="open-image-label" href="assets/erp-real.webp" target="_blank" rel="noopener noreferrer">Ver captura inteira ↗</a>
+          </div>
+          <div class="panel-info"><div class="panel-copy"><span class="category">Protótipo web · Regras de negócio</span><h2 id="title-erp">Mini ERP</h2><p>Cadastros de clientes e produtos, vendas e controle básico de estoque no navegador.</p></div><div class="panel-side"><span>HTML · CSS · JavaScript</span><span class="not-published">Protótipo local</span></div></div>
+        </article>
+
+        <article class="panel panel-chess" data-panel="chess" hidden aria-labelledby="title-chess">
+          <div class="project-visual stage-chess">
+            <div class="chess-graphic" role="img" aria-label="Resumo técnico do trabalho de conclusão de curso: avaliação neural de posições e busca Negamax com poda alfa-beta.">
+              <span class="chess-label">TCC · EM EQUIPE</span>
+              <div class="chess-formula"><span>Avaliação<br>neural</span><span class="plus">+</span><span>Busca<br>Negamax</span></div>
+              <div class="chess-foot">Poda alfa-beta / Python / TensorFlow</div>
             </div>
-          </article>
-
-          <article class="project-panel cep-panel" aria-labelledby="cep-panel-title">
-            <div class="cep-image-stage"><figure class="real-interface"><img src="assets/cep-real.webp" width="1280" height="800" loading="lazy" decoding="async" alt="Captura de tela real do sistema CEP Explorer com consulta e lista de consultas recentes."><figcaption>Captura real · CEP Explorer</figcaption></figure></div>
-            <div class="panel-copy cep-copy"><div class="panel-meta"><span>Web / API</span><span>02</span></div><div class="panel-content"><h3 id="cep-panel-title">CEP<br>Explorer</h3><p>Consulta endereços pelo ViaCEP e guarda histórico e cache de pesquisas em SQLite.</p><a class="project-link" href="https://github.com/perfilcorporativo/projeto_consulta_api" target="_blank" rel="noopener noreferrer">Código no GitHub ↗</a></div><div class="panel-footer"><span>TypeScript · Node.js · SQLite</span><span>Projeto pessoal</span></div></div>
-          </article>
-
-          <article class="project-panel help-panel" aria-labelledby="help-panel-title">
-            <div class="panel-copy help-copy"><div class="panel-meta"><span>Gestão de chamados</span><span>03 / Sistema web</span></div><div class="panel-content"><h3 id="help-panel-title">HelpDesk<br>Lite</h3><p>Registro, consulta e filtragem de chamados. Interface conectada a uma API REST com persistência em banco local.</p><a class="project-link" href="https://github.com/perfilcorporativo/sistema-tickets" target="_blank" rel="noopener noreferrer">Código no GitHub ↗</a></div><div class="panel-footer"><span>TypeScript · REST · SQLite</span><span>Projeto pessoal</span></div></div>
-            <div class="help-image-stage"><figure class="real-interface"><img src="assets/helpdesk-real.webp" width="1280" height="800" loading="lazy" decoding="async" alt="Captura real da interface do HelpDesk Lite, com campos de novo chamado e a fila de atendimento."><figcaption>Interface executada localmente</figcaption></figure></div>
-          </article>
-
-          <article class="project-panel chess-panel" aria-labelledby="chess-panel-title">
-            <div class="chess-main"><div class="chess-diagram"><span class="chess-diagram-label">Estratégia de busca</span><div class="chess-expression"><span>Avaliação<br>de posição</span><b>+</b><span>Busca<br>Negamax</span></div><div class="chess-divide"></div><p>Limites da busca: poda alfa-beta</p></div></div>
-            <div class="panel-copy chess-copy"><div class="panel-meta"><span>TCC / Trabalho em equipe</span><span>04</span></div><div class="panel-content"><h3 id="chess-panel-title">IA aplicada<br>ao xadrez</h3><p>Trabalho acadêmico que combina avaliação neural de posições e busca por jogadas com Negamax.</p><a class="project-link" href="https://github.com/perfilcorporativo/TCC-IA" target="_blank" rel="noopener noreferrer">Repositório do TCC ↗</a></div><div class="panel-footer"><span>Python · TensorFlow · Algoritmos</span><span>Projeto acadêmico</span></div></div>
-          </article>
-
-          <article class="project-panel erp-panel" aria-labelledby="erp-panel-title">
-            <div class="panel-copy erp-copy"><div class="panel-meta"><span>Organização comercial</span><span>05</span></div><div class="panel-content"><h3 id="erp-panel-title">Mini ERP</h3><p>Protótipo para clientes, produtos e vendas, com movimentação de estoque e dados salvos no navegador.</p><span class="project-status">Projeto local · demonstração de estudo</span></div><div class="panel-footer"><span>HTML · CSS · JavaScript</span><span>Protótipo</span></div></div>
-            <div class="erp-image-stage"><figure class="real-interface"><img src="assets/erp-real.webp" width="1280" height="800" loading="lazy" decoding="async" alt="Captura real do Mini ERP com módulos de cadastro e indicadores de teste."><figcaption>Interface real · Dados de exemplo</figcaption></figure></div>
-          </article>
-        </div>
+          </div>
+          <div class="panel-info"><div class="panel-copy"><span class="category">Trabalho de conclusão de curso · Equipe</span><h2 id="title-chess">IA para Xadrez</h2><p>Combinação de avaliação neural de posições e busca algorítmica por jogadas.</p></div><div class="panel-side"><span>Python · TensorFlow</span><a href="https://github.com/perfilcorporativo/TCC-IA" target="_blank" rel="noopener noreferrer">Ver código ↗</a></div></div>
+        </article>
       </div>
-      <div class="journey-footer"><span class="journey-progress"><span id="journey-progress"></span></span><span class="journey-footnote">A rolagem vertical continua após o último projeto</span></div>
-    </div>
-  </section>
-
-  <section class="focus" id="facescore" aria-labelledby="focus-title">
-    <div class="focus-heading"><span class="section-aside">Aprofundamento / 01</span><h2 id="focus-title">FaceScoreAI, por dentro.</h2><p>Um projeto Android em evolução. Aqui, o foco é a implementação — não uma avaliação da aparência de pessoas.</p></div>
-    <div class="focus-columns">
-      <div class="focus-method"><p class="focus-mark">Kotlin<br><span>+ Compose</span></p><p>Captura e galeria integram um fluxo de leitura local com apresentação das métricas e navegação por histórico.</p></div>
-      <div class="focus-facts">
-        <div class="fact"><span>Processamento</span><div><h3>Local, no aparelho</h3><p>O fluxo usa landmarks e cálculos geométricos. As telas deste portfólio não incluem fotos de pessoas.</p></div></div>
-        <div class="fact"><span>Interface</span><div><h3>Leitura em camadas</h3><p>Apresentação das regiões, histórico e comparação de resultados em uma interface Android.</p></div></div>
-        <div class="fact"><span>Estado</span><div><h3>Em desenvolvimento</h3><p>Configurações externas para contas e assinaturas ainda requerem validação. Não é um instrumento científico ou clínico.</p></div></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="more-work" id="laboratorio" aria-labelledby="more-title">
-    <div class="more-intro"><div><span class="section-aside">Outros projetos</span><h2 id="more-title">Arquivos de estudo</h2></div><p>Scripts, automações e exercícios de integração que complementam os projetos apresentados acima.</p></div>
-    <div class="more-list">
-      <a href="https://github.com/perfilcorporativo/diagnostico-rede" target="_blank" rel="noopener noreferrer"><span>Diagnóstico de Rede</span><small>PowerShell · Conectividade</small><b>↗</b></a>
-      <a href="https://github.com/perfilcorporativo/inventario-computadores" target="_blank" rel="noopener noreferrer"><span>Inventário de Computadores</span><small>Python · CSV</small><b>↗</b></a>
-      <a href="https://github.com/perfilcorporativo/importacao-csv-sql-logistic" target="_blank" rel="noopener noreferrer"><span>Dados logísticos</span><small>Importação CSV · SQL</small><b>↗</b></a>
-      <a href="https://github.com/perfilcorporativo/monitoramento-sistema" target="_blank" rel="noopener noreferrer"><span>Monitoramento de Sistema</span><small>CPU / Memória</small><b>↗</b></a>
-      <a href="https://github.com/perfilcorporativo/verificador-porta" target="_blank" rel="noopener noreferrer"><span>Verificador de Portas</span><small>Python · Sockets</small><b>↗</b></a>
-      <a href="https://github.com/perfilcorporativo/dashboard-logistica" target="_blank" rel="noopener noreferrer"><span>Dashboard Logístico</span><small>Excel · Indicadores</small><b>↗</b></a>
-      <a href="https://github.com/perfilcorporativo/projeto-power-query-logistico" target="_blank" rel="noopener noreferrer"><span>Power Query Logístico</span><small>Power Query · Excel</small><b>↗</b></a>
-      <a href="https://github.com/perfilcorporativo/otimizacao-windows" target="_blank" rel="noopener noreferrer"><span>Rotinas Windows</span><small>PowerShell</small><b>↗</b></a>
-    </div>
-    <div class="more-outro"><a class="underlined-link" href="https://github.com/perfilcorporativo?tab=repositories" target="_blank" rel="noopener noreferrer">Todos os repositórios no GitHub ↗</a></div>
-  </section>
-
-  <section class="bio" id="sobre" aria-labelledby="bio-title"><div class="bio-label"><span>Fernando / Sobre</span><span>Graduação em ADS</span></div><div class="bio-layout"><h2 id="bio-title">Estou começando minha carreira em tecnologia.</h2><div><p>Sou formado em Análise e Desenvolvimento de Sistemas pela UNIFADRA/FUNDEC. Tenho construído projetos pessoais e acadêmicos para praticar desenvolvimento web, Android e integração de sistemas.</p><p>Busco oportunidades de início de carreira para continuar aprendendo e contribuir em produtos e ferramentas reais.</p><div class="bio-stack"><span>Tecnologias presentes nos projetos</span><p>TypeScript, JavaScript, Python, Kotlin, SQL, HTML e CSS.</p></div></div></div></section>
-
-  <section class="end" id="contato" aria-labelledby="contact-title"><div class="end-top"><span>CONTATO</span><a href="#topo">Voltar ao início ↑</a></div><h2 id="contact-title">Quer conversar<br>sobre algum projeto?</h2><div class="end-links"><a href="https://www.linkedin.com/in/fernando-batistela-4bb4b639b/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/perfilcorporativo" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></section>
-</main>
-<footer><span>Fernando Batistela</span><span>Portfólio / 2026</span><a href="#topo">↑</a></footer>
+      <footer class="viewer-bottom"><span>Fernando Batistela © 2026</span><span>Selecione um projeto ou use ← →</span></footer>
+    </section>
+  </main>
+</div>
 </body>
 </html>
