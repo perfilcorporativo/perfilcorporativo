@@ -4,7 +4,7 @@
 
 Formado em Análise e Desenvolvimento de Sistemas pela **UNIFADRA/FUNDEC**, estou no início da carreira em tecnologia. Desenvolvo projetos pessoais e acadêmicos para praticar construção de interfaces, APIs, persistência de dados e resolução de problemas.
 
-[LinkedIn](https://www.linkedin.com/in/fernando-batistela-4bb4b639b/) · [Código do portfólio](https://github.com/perfilcorporativo/perfilcorporativo/tree/main/docs) · [Repositórios](https://github.com/perfilcorporativo?tab=repositories)
+[Portfólio online](https://perfilcorporativo.github.io/perfilcorporativo/) · [LinkedIn](https://www.linkedin.com/in/fernando-batistela-4bb4b639b/) · [Código do site](https://github.com/perfilcorporativo/perfilcorporativo/tree/main/docs) · [Repositórios](https://github.com/perfilcorporativo?tab=repositories)
 
 ## Projetos selecionados
 
