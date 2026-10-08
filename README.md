@@ -1,48 +1,32 @@
 # Fernando Junior Batistela de Sousa
 
-Formado em **Análise e Desenvolvimento de Sistemas pela UNIFADRA/FUNDEC**, em início de carreira na área de tecnologia.
+**Análise e Desenvolvimento de Sistemas · Aplicações web · Android · Integrações**
 
-Este perfil reúne **projetos acadêmicos e pessoais de estudo** desenvolvidos para praticar lógica de programação, desenvolvimento de sistemas, APIs, banco de dados, automação e integração de dados.
+Formado em Análise e Desenvolvimento de Sistemas pela **UNIFADRA/FUNDEC**, estou no início da carreira em tecnologia. Desenvolvo projetos pessoais e acadêmicos para praticar construção de interfaces, APIs, persistência de dados e resolução de problemas.
 
-## Projetos em destaque
+[LinkedIn](https://www.linkedin.com/in/fernando-batistela-4bb4b639b/) · [Código do portfólio](https://github.com/perfilcorporativo/perfilcorporativo/tree/main/docs) · [Repositórios](https://github.com/perfilcorporativo?tab=repositories)
 
-### HelpDesk Lite
-Sistema de chamados desenvolvido como projeto pessoal de estudo.
+## Projetos selecionados
 
-**Tecnologias:** TypeScript, Node.js, API REST, SQLite/SQL, HTML, CSS e JavaScript.
+| Projeto | O que desenvolve | Tecnologias |
+| --- | --- | --- |
+| **FaceScoreAI** *(em desenvolvimento, código não publicado)* | Aplicativo Android de leitura facial local, métricas geométricas, histórico e comparação. A metodologia não é uma avaliação científica ou clínica validada. | Kotlin, Jetpack Compose, MediaPipe, Room |
+| [**HelpDesk Lite**](https://github.com/perfilcorporativo/sistema-tickets) | Sistema de chamados com CRUD, filtros, API REST, persistência e testes. | TypeScript, Node.js, SQLite |
+| [**CEP Explorer**](https://github.com/perfilcorporativo/projeto_consulta_api) | Consulta ViaCEP com validação, histórico, cache SQL e interface web. | TypeScript, Node.js, API REST, SQLite |
+| [**IA para Xadrez (TCC em equipe)**](https://github.com/perfilcorporativo/TCC-IA) | Protótipo acadêmico de avaliação neural de posições e busca Negamax com poda alfa-beta. | Python, TensorFlow/Keras, NumPy |
 
-- CRUD de chamados
-- filtros por status e prioridade
-- interface web integrada à API
-- persistência em SQLite
-- testes automatizados
+### Outros projetos de estudo
 
-[Ver repositório](https://github.com/perfilcorporativo/sistema-tickets)
+[Diagnóstico de rede](https://github.com/perfilcorporativo/diagnostico-rede) · [Inventário de computadores](https://github.com/perfilcorporativo/inventario-computadores) · [Importação CSV/SQL](https://github.com/perfilcorporativo/importacao-csv-sql-logistic) · [Monitoramento de CPU e RAM](https://github.com/perfilcorporativo/monitoramento-sistema)
 
-### CEP Explorer
-Projeto que começou como um script em Python + CSV e depois foi ampliado para uma aplicação web.
+## O que tenho praticado
 
-**Tecnologias:** TypeScript, Node.js, ViaCEP, API REST, SQLite/SQL, HTML, CSS e JavaScript.
-
-- consulta e validação de CEP
-- integração com API externa
-- cache e histórico em SQLite
-- interface web responsiva
-- testes automatizados
-
-[Ver repositório](https://github.com/perfilcorporativo/projeto_consulta_api)
-
-### TCC — Xadrez com Inteligência Artificial
-Trabalho de Conclusão de Curso desenvolvido em equipe na graduação em Análise e Desenvolvimento de Sistemas.
-
-**Tecnologias praticadas:** Python, TensorFlow/Keras, NumPy, python-chess e algoritmos de busca.
-
-[Ver repositório](https://github.com/perfilcorporativo/TCC-IA)
-
-## Conhecimentos praticados
-
-Python • TypeScript • JavaScript • Node.js • APIs REST • SQL • SQLite • MySQL • PostgreSQL • Git • GitHub • HTML • CSS
+**Desenvolvimento:** TypeScript, JavaScript, Python, Kotlin, HTML e CSS.  
+**Integração e dados:** APIs REST, SQLite, SQL, MySQL e PostgreSQL em projetos de estudo.  
+**Ferramentas:** Git, GitHub e testes automatizados nos repositórios indicados.
 
 ## Objetivo profissional
 
-Busco uma oportunidade de **início de carreira em tecnologia** em que eu possa continuar aprendendo, receber orientação de profissionais mais experientes e desenvolver minhas competências em projetos reais.
+Busco uma oportunidade de **início de carreira em tecnologia**, especialmente em desenvolvimento de sistemas, aplicações web, suporte a sistemas ou áreas relacionadas. Tenho interesse em trabalhar com equipes, aprender novas ferramentas e contribuir em projetos reais.
+
+> Os repositórios apresentam projetos acadêmicos e pessoais. As descrições distinguem funcionalidades implementadas de recursos ainda em evolução.
